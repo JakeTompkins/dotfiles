@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	editor = subl -n -w  >/dev/null 2>&1
+	excludesfile = /Users/jake/.gitignore_global
 
 [alias]
   co = checkout
@@ -47,5 +48,13 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = term171013@gmail.com
+	email = jaketompkins91@outlook.com
 	name = Jake Tompkins
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/jake/.stCommitMsg
