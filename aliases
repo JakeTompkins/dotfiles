@@ -8,3 +8,9 @@ alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 
 # Run ruby webpacker in current directory
 alias rwpack='ruby ./bin/webpack-dev-server'
+
+# Ultralist commands
+alias task='ultralist'
+
+# Search files in folder
+alias search="ls | grep"
