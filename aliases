@@ -11,6 +11,9 @@ alias rwpack='ruby ./bin/webpack-dev-server'
 
 # Ultralist commands
 alias task='ultralist'
+alias today='task l agenda'
+alias projects='task l by p'
+alias contexts='task l by c'
 
 # Search files in folder
 alias search="ls | grep"
