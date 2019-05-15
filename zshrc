@@ -10,7 +10,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs histor
 POWERLEVEL9K_BATTERY_LOW_THRESHOLD=10
 
 # ZSH Plugins
-plugins=(zsh-autosuggestions gitfast last-working-dir common-aliases gem jsontools osx rails web-search yarn wd zsh-syntax-highlighting history-substring-search pyenv)
+plugins=(zsh-autosuggestions gitfast last-working-dir common-aliases gem jsontools osx rails web-search yarn wd zsh-syntax-highlighting history-substring-search pyenv spotify)
 # ----------------------------------------------------------------------
 
 # Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md

@@ -17,3 +17,9 @@ alias contexts='task l by c'
 
 # Search files in folder
 alias search="ls | grep"
+
+# Spotify controls
+alias play='spotify play'
+alias pause='spotify pause'
+alias next='spotify next'
+alias prev='spotify prev'
