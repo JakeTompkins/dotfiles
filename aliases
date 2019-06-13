@@ -16,7 +16,7 @@ alias projects='task l by p'
 alias contexts='task l by c'
 
 # Search files in folder
-alias search="ls | grep"
+alias search="ls | grep -i"
 
 # Spotify controls
 alias play='spotify play'
