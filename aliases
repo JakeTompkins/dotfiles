@@ -18,8 +18,15 @@ alias contexts='task l by c'
 # Search files in folder
 alias search="ls | grep -i"
 
+# Babel setup
+alias babelify="npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node nodemon @babel/plugin-proposal-class-properties @babel/plugin-syntax-dynamic-import && cp $HOME/code/babelConfigs/babelrc ./ && mv babelrc .babelrc" 
+
 # Spotify controls
 alias play='spotify play'
+alias playing='spotify status'
 alias pause='spotify pause'
 alias next='spotify next'
 alias prev='spotify prev'
+
+#Tunnel proxy
+alias proxyOn='export http_proxy="socks5://localhost:1086" && export https_proxy="socks5://localhost:1086"'
