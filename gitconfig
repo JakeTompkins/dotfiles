@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = code  >/dev/null 2>&1
+	editor = code-insiders  >/dev/null 2>&1
 	excludesfile = /Users/jake/.gitignore_global
 
 [alias]

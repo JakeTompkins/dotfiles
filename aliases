@@ -30,3 +30,6 @@ alias prev='spotify prev'
 
 #Tunnel proxy
 alias proxyOn='export http_proxy="socks5://localhost:1086" && export https_proxy="socks5://localhost:1086"'
+
+#Convert Json to GQL
+alias jsgq='node /Users/jake/code/jsonToGql/json2graphql.js'
