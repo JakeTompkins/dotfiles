@@ -32,5 +32,8 @@ alias prev='spotify prev'
 alias jsgq='node /Users/jake/code/jsonToGql/json2graphql.js'
 
 #Wireguard
-alias vpn='sudo wg-quick up autumn-armor'
-alias novpn='sudo wg-quick down autumn-armor'
+alias vpn='sudo wg-quick up thought-donate'
+alias novpn='sudo wg-quick down thought-donate'
+
+#Baseline Stuff
+alias prodDb='ssh -N -L 8080:pg-dev.ckzaqr13l44q.us-west-2.rds.amazonaws.com:5432 ubuntu@18.237.175.86 -i ~/.ssh/ec2-1.pem'
